@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8"/>
+        <style>
+            body{
+                font-family:'calibri';
+            }
+            .head{
+                display:flex;
+                flex-flow: row wrap;
+                background-color: #D09B54;
+                padding: 24px;
+                margin:-10px;
+                border:1px solid black;
+                justify-content:space-around;
+            }
+            .fondo{
+                background-color:#F3D3A7;
+            }
+            iframe{
+                display: flex;
+                justify-content:center;
+                margin:auto;
+                width:50em;
+                height:30em;
+            }
+            .pie{
+                background-color:#A77B3F;
+                position:fixed;
+                bottom:0;
+                width: 100%;
+                overflow:hidden;
+                border-top:1px solid black;
+                border-left:1px solid black;
+            }
+            ul {
+                list-style-type: none;
+                margin:0;
+                padding:center;
+                overflow:hidden;
+                display:flex;
+            }
+            li{
+                float:left;
+            }
+            .lang{
+                border:1px solid black;
+                width: 38px;
+                height: 27px;
+            }
+            #lang{
+                padding-top:12px;
+            }
+
+            li a{
+                display:block;
+                color:white;
+                text-align:center;
+                font-size: 25px;
+                padding:14px 16px;
+                text-decoration: none;
+            }
+            .follow{
+                justify-content:flex-end;
+            }
+
+            .logo{
+                height: 70px;
+                width: 100px;
+            }
+            h1{
+                text-align: center;
+                font-size: 50px;
+            }
+        </style>
+
+        <body class="fondo">
+            <header class="head">
+                <ul>
+                    <li><a href="./Prototipo1_inicio.html"><img class="logo" src="images/MigasAmigas_Logo.png"/></a></li>
+                </ul>
+                <ul>
+                    <li><a href="./panaderia.html">Panadería</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./pasteleria.html">Pastelería</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./bolleria.html">Bollería</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./empanadas.html">Empanadas</a></li>
+                </ul>
+                <ul>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+                <ul id="lang">
+                    <li>
+                        <img class="lang" src="images/spainFlag.png"/>
+                        <img class="lang" src="images/PortugalFlag.png"/>
+                    </li>
+                </ul>
+            </header>
+            <h1>Elaboración del pan</h1><!--width="760" height="515"-->
+            <iframe class="video" src="https://www.youtube.com/embed/q2oUvWO3-VQ" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <footer class="pie">
+                <ul id="pieContact">
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="#">Licencia</a></li>
+                </ul>
+                <ul>
+                    <li class="terms"><a href="#">Términos y condiciones</a></li>
+                    <li class="terms"><a href="#">Ayuda y servicios</a></li>
+                </ul>
+            </footer>
+        </body>
+    </head>
+</html>
